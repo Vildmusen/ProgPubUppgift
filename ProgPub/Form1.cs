@@ -90,7 +90,7 @@ namespace ProgPub
                 }
             }
 
-            // Add all subscriptions
+            // Add all subscriptions for each square
             foreach(Square s in squares)
             {
                 s.Subscribe(squares);

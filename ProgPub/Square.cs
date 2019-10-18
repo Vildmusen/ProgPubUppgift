@@ -20,12 +20,13 @@ namespace ProgPub
 
         public void Subscribe(List<Square> squares)
         {
+            // THIS IS CALLED FROM THE FORM WHEN WE CREATE A SQUARE
             // TODO IMPLEMENT SUBSCRIBE
         }
 
         public void onClick()
         {
-            // THIS IS RUN WHEN USER PRESSES A BUTTON ON THE GRID
+            // THIS IS RUN WHEN USER PRESSES OUR BUTTON ON THE GRID
             // TODO IMPLEMENT ONCLICK
         }
 
