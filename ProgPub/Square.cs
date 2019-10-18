@@ -20,32 +20,19 @@ namespace ProgPub
 
         public void Subscribe(List<Square> squares)
         {
-            foreach(Square s in squares)
-            {
-                if(s != this)
-                {
-                    s.Changed += onChange;
-                }
-            }
+            // TODO IMPLEMENT SUBSCRIBE
         }
 
         public void onClick()
         {
-            isAlive = !isAlive;
-            SquareEventArgs args = new SquareEventArgs(x, y);
-            Changed?.Invoke(this, args);
+            // THIS IS RUN WHEN USER PRESSES A BUTTON ON THE GRID
+            // TODO IMPLEMENT ONCLICK
         }
 
         public void onChange(object sender, SquareEventArgs e)
         {
-            if(e.Y == y && (e.X == x - 1 || e.X == x + 1))
-            {
-                isAlive = !isAlive;
-            }
-            if (e.X == x && (e.Y == y - 1 || e.Y == y + 1))
-            {
-                isAlive = !isAlive;
-            }
+            // THIS SHOULD BE RUN ON EVENT
+            // TODO IMPLEMENT ONCHANGE
         }
     }
 }

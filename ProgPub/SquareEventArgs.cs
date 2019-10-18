@@ -2,13 +2,11 @@
 {
     class SquareEventArgs
     {
-        public int X { get; set; }
-        public int Y { get; set; }
+        // TODO IMPLEMENT PROPERTIES
 
-        public SquareEventArgs(int x, int y)
+        public SquareEventArgs()
         {
-            X = x;
-            Y = y;
+            // TODO IMPLEMENT CONSTRUCTOR
         }
     }
 }
