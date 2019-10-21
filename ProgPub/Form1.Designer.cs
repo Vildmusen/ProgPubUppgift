@@ -49,10 +49,10 @@
             this.x0y2 = new System.Windows.Forms.Button();
             this.x1y2 = new System.Windows.Forms.Button();
             this.x2y2 = new System.Windows.Forms.Button();
-            this.x2y3 = new System.Windows.Forms.Button();
+            this.x3y2 = new System.Windows.Forms.Button();
             this.x0y3 = new System.Windows.Forms.Button();
             this.x1y3 = new System.Windows.Forms.Button();
-            this.x3y2 = new System.Windows.Forms.Button();
+            this.x2y3 = new System.Windows.Forms.Button();
             this.x3y3 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
@@ -262,15 +262,15 @@
             this.x2y2.UseVisualStyleBackColor = false;
             this.x2y2.Click += new System.EventHandler(this.x2y2_Click);
             // 
-            // x2y3
+            // x3y2
             // 
-            this.x2y3.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.x2y3.Location = new System.Drawing.Point(798, 202);
-            this.x2y3.Name = "x2y3";
-            this.x2y3.Size = new System.Drawing.Size(60, 59);
-            this.x2y3.TabIndex = 11;
-            this.x2y3.UseVisualStyleBackColor = false;
-            this.x2y3.Click += new System.EventHandler(this.x2y3_Click);
+            this.x3y2.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.x3y2.Location = new System.Drawing.Point(798, 202);
+            this.x3y2.Name = "x3y2";
+            this.x3y2.Size = new System.Drawing.Size(60, 59);
+            this.x3y2.TabIndex = 11;
+            this.x3y2.UseVisualStyleBackColor = false;
+            this.x3y2.Click += new System.EventHandler(this.x2y3_Click);
             // 
             // x0y3
             // 
@@ -292,15 +292,15 @@
             this.x1y3.UseVisualStyleBackColor = false;
             this.x1y3.Click += new System.EventHandler(this.x1y3_Click);
             // 
-            // x3y2
+            // x2y3
             // 
-            this.x3y2.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.x3y2.Location = new System.Drawing.Point(732, 267);
-            this.x3y2.Name = "x3y2";
-            this.x3y2.Size = new System.Drawing.Size(60, 59);
-            this.x3y2.TabIndex = 14;
-            this.x3y2.UseVisualStyleBackColor = false;
-            this.x3y2.Click += new System.EventHandler(this.x3y2_Click);
+            this.x2y3.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.x2y3.Location = new System.Drawing.Point(732, 267);
+            this.x2y3.Name = "x2y3";
+            this.x2y3.Size = new System.Drawing.Size(60, 59);
+            this.x2y3.TabIndex = 14;
+            this.x2y3.UseVisualStyleBackColor = false;
+            this.x2y3.Click += new System.EventHandler(this.x3y2_Click);
             // 
             // x3y3
             // 
@@ -328,13 +328,13 @@
             this.ClientSize = new System.Drawing.Size(908, 352);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.x3y3);
-            this.Controls.Add(this.x3y2);
+            this.Controls.Add(this.x2y3);
             this.Controls.Add(this.evnet_func);
             this.Controls.Add(this.x1y3);
             this.Controls.Add(this.func6_btn);
             this.Controls.Add(this.x0y3);
             this.Controls.Add(this.func5_btn);
-            this.Controls.Add(this.x2y3);
+            this.Controls.Add(this.x3y2);
             this.Controls.Add(this.func4_btn);
             this.Controls.Add(this.x2y2);
             this.Controls.Add(this.func3_btn);
@@ -383,10 +383,10 @@
         private System.Windows.Forms.Button x0y2;
         private System.Windows.Forms.Button x1y2;
         private System.Windows.Forms.Button x2y2;
-        private System.Windows.Forms.Button x2y3;
+        private System.Windows.Forms.Button x3y2;
         private System.Windows.Forms.Button x0y3;
         private System.Windows.Forms.Button x1y3;
-        private System.Windows.Forms.Button x3y2;
+        private System.Windows.Forms.Button x2y3;
         private System.Windows.Forms.Button x3y3;
         private System.Windows.Forms.Label label2;
     }
